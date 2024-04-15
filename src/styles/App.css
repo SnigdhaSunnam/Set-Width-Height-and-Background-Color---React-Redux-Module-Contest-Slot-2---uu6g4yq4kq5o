@@ -1,0 +1,43 @@
+/* styles/App.css */
+
+#main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.create-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#create-box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid #000;
+}
